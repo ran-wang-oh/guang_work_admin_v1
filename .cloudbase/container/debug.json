@@ -1,0 +1,27 @@
+{
+  "containers": [
+    {
+      "name": "app",
+      "domain": "",
+      "ip": "",
+      "containerId": "13b22716e7f794a6dda1a123f83012ffa6cf621a9582b67fbf7e94d8b1cde0a7"
+    }
+  ],
+  "config": {
+    "app": {
+      "remark": "",
+      "dockerfilePath": "Dockerfile",
+      "buildDir": "",
+      "minNum": 0,
+      "maxNum": 50,
+      "cpu": 0.5,
+      "mem": 1,
+      "policyType": "cpu",
+      "policyThreshold": 60,
+      "envParams": {},
+      "customLogs": "stdout",
+      "containerPort": 80,
+      "initialDelaySeconds": 2
+    }
+  }
+}
