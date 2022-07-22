@@ -28,4 +28,4 @@ EXPOSE 80
 # 命令行运行，启动uvicorn服务，指定ip和端口(--reload：让服务器在更新代码后重新启动。仅在开发时使用该选项。)
 # CMD ["uvicorn", "app.test:app", "--reload", "--host", "0.0.0.0", "--port", "80"]
 #CMD ["uvicorn", "run:app", "--reload", "--host", "0.0.0.0","--port", "80"]
-# CMD ["python", "./app/main.py"]
+CMD ["python", "./app/main.py"]
